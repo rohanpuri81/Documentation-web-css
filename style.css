@@ -52,3 +52,43 @@ main{
 section{
     margin-bottom: 50px;
 }
+section article{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section h2{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+section article ul{
+    margin-left: 25px;
+}
+section article ul li{
+    margin-bottom: 10px;
+}
+
+code{
+    line-height: 2;
+    background:#f7f7f7 ;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    white-space: pre-line;
+}
+
+@media (max-width:480px) {
+    body{
+        flex-direction: column;
+    }
+    header{
+        overflow: scroll;
+        height: 200px;
+        position: relative;
+    }
+}
